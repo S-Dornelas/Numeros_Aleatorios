@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Números aleatórios</title>
+</head>
+<body>
+    <header>
+        <h1>Sorteador de Números Aleatórios</h1>
+    </header>
+
+    <main>
+        <h3>Escolha dois numeros como referência para soteiro aleatório.</h3>
+        
+        <form action="Random.php" method="get">
+            <label for="menorNumero">Digite o menor número.</label>
+            <input type="number" name="menorNumero" id="menor">
+
+            <label for="maiorNumero">Digite o maior número.</label>
+            <input type="number" name="maiorNumero" id="maior">
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
